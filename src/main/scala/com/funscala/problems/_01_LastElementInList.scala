@@ -1,6 +1,6 @@
 package com.funscala.problems
 
-object _01_LastElement {
+object _01_LastElementInList {
   def last(xs: List[Int]): Int = xs match {
     case Nil => throw new NoSuchElementException
     case head :: Nil => head

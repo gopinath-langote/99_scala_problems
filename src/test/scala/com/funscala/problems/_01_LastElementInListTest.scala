@@ -4,9 +4,9 @@ import java.util.NoSuchElementException
 
 import org.scalatest.FlatSpec
 
-class _01_LastElementTest extends FlatSpec {
+class _01_LastElementInListTest extends FlatSpec {
 
-  import _01_LastElement._
+  import _01_LastElementInList._
 
   behavior of "Last Element In List"
 
@@ -19,5 +19,5 @@ class _01_LastElementTest extends FlatSpec {
       last(List())
     }
   }
-  
+
 }
